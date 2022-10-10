@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Flowers</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./shared/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+          integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+
+<body>
+<header class="header-container">
+    <div class="header-content">
+        <a href="index.html"><img src="./images/logo.svg" alt="logo" class="logo"></a>
+
+        <a href="cart/index.html" class="cart"><img src="./images/cart.svg" alt="cart"> <span class="cart-circle">3</span></a>
+    </div>
+</header>
+
+<main>
+    <div class="categories">
+        <a href="./category/index.html">Flowers</a>
+        <a href="./category/index.html">Plants</a>
+        <a href="./category/index.html">Presents</a>
+        <a href="./category/index.html">Postcards</a>
+        <a href="./category/index.html">Care</a>
+    </div>
+    <div class="banner">
+        <p>-40%</p>
+        <p>Best flowers<br>for your events</p>
+    </div>
+    <div>Popular now</div>
+    <div class="gallery">
+        <a href="./product/index.html" class="product-link"><img src="./images/img1.jpg" alt="1"></a>
+        <a href="./product/index.html" class="product-link"><img src="./images/img2.jpg" alt="2"></a>
+        <a href="./product/index.html" class="product-link"><img src="./images/img3.jpg" alt="3"></a>
+        <a href="./product/index.html" class="product-link"><img src="./images/img4.jpg" alt="4"></a>
+        <a href="./product/index.html" class="product-link"><img src="./images/img5.jpg" alt="5"></a>
+        <a href="./product/index.html" class="product-link"><img src="./images/img6.jpg" alt="6"></a>
+    </div>
+    <div class="contact-info"><h3 style="text-align: center">Leave your phone number, and we'll call you back!</h3>
+        <form class="callback">
+            <label>Name:
+                <input type="text" name="Name" placeholder="Name" required>
+            </label>
+            <label>Surname:
+                <input type="text" name="Surname" placeholder="Surname" required>
+            </label>
+            <label>E-mail:
+                <input type="email" placeholder="E-mail" name="E-mail" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" required>
+            </label>
+            <label>Phone number:
+                <input type="tel" placeholder="012 345 6789" name="Phone number"  pattern="[0-9]{3}[0-9]{3}[0-9]{4}" minlength="10" required>
+            </label>
+            <input type="submit" value='Contact me' class="button contact-button" >
+        </form>
+    </div>
+</main>
+<footer class="footer">
+    <div>Social media
+        <div class="social-media">
+            <a href="https://www.instagram.com/natalie_voropaieva/" target="_blank" rel="noreferrer noopener"><img
+                    src="./images/instagram.svg" alt="inst" class="social"></a>
+            <a href="https://twitter.com/home" target="_blank" rel="noreferrer noopener"><img src="./images/twitter.svg"
+                                                                                              alt="twitter"
+                                                                                              class="social"></a>
+            <a href="https://www.youtube.com" target="_blank" rel="noreferrer noopener"><img src="./images/youtube.svg"
+                                                                                             alt="youtube"
+                                                                                             class="social"></a>
+        </div>
+    </div>
+    <div class="customer">For customers
+        <a href="">Support</a>
+        <a href="">Delivery</a>
+        <a href="">Warranty</a>
+    </div>
+
+    <div class="contact">Contact us
+        <p>Platte Canyon Dr, Littleton, United States</p>
+        <p>+000-00-000-00-00</p>
+    </div>
+
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+</html>

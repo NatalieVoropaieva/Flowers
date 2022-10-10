@@ -1,0 +1,91 @@
+.order-info{
+    width: 100%;
+    padding: 20px;
+}
+.order-form{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 20px;
+}
+.order-form .main-info {
+    font-size: 16px;
+    width: 75%;
+}
+.order-form .receipt {
+    width: 25%;
+}
+
+.main-info {
+    padding-right: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-info label{
+    width: 48%;
+}
+
+.comments {
+    flex: 1 1 100%;
+}
+
+.comments textarea {
+    min-height: 150px;
+}
+
+
+.submit-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center
+}
+
+.submit-btn input[type=submit] {
+    justify-self: center;
+    min-width: 150px;
+}
+
+.receipt {
+    background-color: #fce986;
+    border-radius: 5px;
+    padding: 12px 16px;
+    font-size: 16px;
+}
+.receipt h3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.receipt p {
+    display: flex;
+    justify-content: space-between;
+}
+
+.receipt p span {
+    font-weight: 700;
+}
+
+@media (max-width: 500px) {
+    .order-form {
+        flex-direction: column;
+    }
+    .order-form label {
+        width: 100%;
+    }
+    .order-form .main-info {
+        width: 100%;
+    }
+    .order-form .receipt {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+    .receipt {
+        order: -1;
+    }
+}

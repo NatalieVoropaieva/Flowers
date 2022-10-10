@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Flowers</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../shared/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+</head>
+<body>
+<header class="header-container">
+    <div class="header-content">
+        <a href="../index.html"><img src="../images/logo.svg" alt="logo" class="logo"></a>
+        <a href="../cart/index.html" class="cart"><img src="../images/cart.svg" alt="cart"> <span class="cart-circle">3</span></a>
+    </div>
+</header>
+<main>
+    <div class="order-info">Order information:
+        <form action="" name="" class="order-form">
+            <div class="main-info">
+                <label>Name:
+                    <input type="text" placeholder="Name" name="Name" required>
+                </label>
+                <label>Surname:
+                    <input type="text" placeholder="Surname" name="Surname" required>
+                </label>
+                <label>E-mail:
+                    <input type="email" placeholder="E-mail" name="E-mail" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" required>
+                </label>
+                <label>Phone number:
+                    <input type="tel" placeholder="Phone number" name="Phone number"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" minlength="10" required>
+                </label>
+                <label>City:
+                    <input type="text" placeholder="City" name="City" required>
+                </label>
+                <label>Address:
+                    <input type="text" placeholder="Address" name="Address" required>
+                </label>
+            </div>
+            <div class="receipt">
+                <h3>Total:</h3>
+                <p>3 product(s)</p>
+                <p>Delivery: <span>Free</span></p>
+                <p>Discount: <span>10%</span></p>
+                <p>Price: <span>$540</span></p>
+            </div>
+            <label class="comments">Comments:
+                <textarea placeholder="Comments" name="Comments" required></textarea>
+            </label>
+            <div class="submit-btn">
+                <input class="button" type="submit" value="Approve order"/>
+            </div>
+        </form>
+    </div>
+    
+</main>
+<footer class="footer">
+    <div>Social media
+        <div class="social-media">
+            <a href="https://www.instagram.com/natalie_voropaieva/" target="_blank" rel="noreferrer noopener"><img
+                    src="../images/instagram.svg" alt="inst" class="social"></a>
+            <a href="https://twitter.com/home" target="_blank" rel="noreferrer noopener"><img
+                    src="../images/twitter.svg" alt="twitter" class="social"></a>
+            <a href="https://www.youtube.com" target="_blank" rel="noreferrer noopener"><img src="../images/youtube.svg"
+                                                                                             alt="youtube"
+                                                                                             class="social"></a>
+        </div>
+    </div>
+    <div class="customer">For customers
+        <a href="">Support</a>
+        <a href="">Delivery</a>
+        <a href="">Warranty</a>
+    </div>
+
+    <div class="contact">Contact us
+        <p>Platte Canyon Dr, Littleton, United States</p>
+        <p>+000-00-000-00-00</p>
+    </div>
+
+</footer>
+</body>
+</html>
