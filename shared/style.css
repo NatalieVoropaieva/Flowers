@@ -3,7 +3,7 @@
     font-family: 'Montserrat', serif;
 }
 body {
-    margin:0;
+    margin: 0;
     font-size: 22px;
     display: flex;
     flex-direction: column;
@@ -184,14 +184,16 @@ textarea {
 }
 
 @media (max-width: 500px) {
+        .footer div {
+        flex: 0 0 30%;
+        text-align: center;
+    }
+}
+@media (max-width: 600px){
     .categories {
         border-bottom: none;
         overflow-x: scroll;
         overflow-y: hidden;
         justify-content: flex-start;
-    }
-    .footer div {
-        flex: 0 0 30%;
-        text-align: center;
     }
 }

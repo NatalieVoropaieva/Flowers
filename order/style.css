@@ -74,6 +74,7 @@
 @media (max-width: 500px) {
     .order-form {
         flex-direction: column;
+        justify-content: center;
     }
     .order-form label {
         width: 100%;
@@ -87,5 +88,8 @@
     }
     .receipt {
         order: -1;
+    }
+    .main-info{
+        padding-right: 0;
     }
 }
